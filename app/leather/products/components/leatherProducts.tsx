@@ -253,7 +253,7 @@ export default function LeatherProducts() {
                       </p>
                     </div>
                   </Transition>
-{/* Lowenol Fatliquors */}
+                  {/* Lowenol Fatliquors */}
                   <Transition
                     show={tab === 1}
                     appear={true}
@@ -389,7 +389,7 @@ export default function LeatherProducts() {
                       </p>
                     </div>
                   </Transition>
-{/* Lowapel Dyes */}
+                  {/* Lowapel Dyes */}
                   <Transition
                     show={tab === 1}
                     appear={true}

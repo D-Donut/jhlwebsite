@@ -132,72 +132,124 @@ export default function LeatherProducts() {
                     <div className='relative inline-flex flex-col'>
                       <h1 className='h1 '></h1>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'>
-                          LOWENOL C-9685:
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN NNS:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Nonionic foam stabilizing/dispersing agent/viscosity
-                          controlling agent for shampoos and hair colors.
+                          anionic buffering syntan
                         </span>
                       </p>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'>
-                          LOWENOL S-216X:
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN AB:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Mildly cationic dye leveling and viscosity controlling
-                          agent for oxidation hair color systems (soya based).
+                          acid enzyme bate.
                         </span>
                       </p>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'>
-                          LOWENOL 1985A, LOWENOL 1985B, LOWENOL T-163, LOWENOL
-                          T-163A:
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN GP:
                         </span>{' '}
                         <span className='font-semibold '>
-                          Weakly cationic surfactant for semi-permanent hair
-                          color systems.
+                          replacement syntan - general use
                         </span>
                       </p>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'></span>{' '}
-                        <span className='font-semibold '></span>
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN COM LIQ:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          compact retan/fatliquor
+                        </span>
                       </p>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'></span>{' '}
-                        <span className='font-semibold '></span>
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN WL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          white replacement syntan
+                        </span>
                       </p>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'></span>{' '}
-                        <span className='font-semibold '></span>
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN AS:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          aluminum-containing retanning agent
+                        </span>
                       </p>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'></span>{' '}
-                        <span className='font-semibold '></span>
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN AM:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          amphoteric replacement syntan
+                        </span>
                       </p>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'></span>{' '}
-                        <span className='font-semibold '></span>
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN CR:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          chrome syntan
+                        </span>
                       </p>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'></span>{' '}
-                        <span className='font-semibold '></span>
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN TS:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          tanning/retanning of Cr-free leather
+                        </span>
                       </p>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'></span>{' '}
-                        <span className='font-semibold '></span>
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN RPE LIQUID:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          acid acrylic resin
+                        </span>
                       </p>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'></span>{' '}
-                        <span className='font-semibold '></span>
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN NR LIQUID:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          acrylic copolymer
+                        </span>
                       </p>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'></span>{' '}
-                        <span className='font-semibold '></span>
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN DC:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          di-cyanamide resin
+                        </span>
                       </p>
                       <p className='text-gray-400  mb-3'>
-                        <span className='font-bold text-blue-500'></span>{' '}
-                        <span className='font-semibold '></span>
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN SD LIQUID:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          mildly cationic shade deepening agent
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN DN:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          special surface masking/bleaching agent
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWATAN FILLER P:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          general purpose protein type
+                        </span>
                       </p>
                     </div>
                   </Transition>

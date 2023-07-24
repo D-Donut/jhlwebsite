@@ -1,7 +1,6 @@
 import HeroContent from '@/app/fur/products/components/heroContent'
 
-import { timelineData } from '@/app/hair/products/components/timelineData'
-import { tableData } from '@/app/hair/products/components/tableData'
+
 
 export default function Hero() {
   return (

@@ -60,7 +60,7 @@ export default function LeatherProducts() {
                 >
                   <div>
                     <div className='font-bold leading-snug tracking-tight mb-1'>
-                      Lowenol Surfactants
+                      Lowatan Retanning Agents, Syntans, & Auxiliaries
                     </div>
                   </div>
                 </a>
@@ -80,7 +80,7 @@ export default function LeatherProducts() {
                 >
                   <div>
                     <div className='font-bold leading-snug tracking-tight mb-1'>
-                      Bleaching Products
+                      Lowenol Fatliquors
                     </div>
                   </div>
                 </a>
@@ -100,84 +100,7 @@ export default function LeatherProducts() {
                 >
                   <div>
                     <div className='font-bold leading-snug tracking-tight mb-1'>
-                      Stabalizing/ Chelating Agents
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className='mb-8 md:mb-0'>
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
-                    tab !== 4
-                      ? ' shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-violet-600 border-transparent'
-                  }`}
-                  href='#0'
-                  onClick={(e) => {
-                    e.preventDefault()
-                    setTab(4)
-                  }}
-                >
-                  <div>
-                    <div className='font-bold leading-snug tracking-tight mb-1'>
-                      Protein Derivatives/ Conditioners
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className='mb-8 md:mb-0'>
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
-                    tab !== 5
-                      ? ' shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-violet-600 border-transparent'
-                  }`}
-                  onClick={(e) => {
-                    e.preventDefault()
-                    setTab(5)
-                  }}
-                >
-                  <div>
-                    <div className='font-bold leading-snug tracking-tight mb-1'>
-                      Colors
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className='mb-8 md:mb-0'>
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
-                    tab !== 6
-                      ? ' shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-violet-600 border-transparent'
-                  }`}
-                  onClick={(e) => {
-                    e.preventDefault()
-                    setTab(6)
-                  }}
-                >
-                  <div>
-                    <div className='font-bold leading-snug tracking-tight mb-1'>
-                      Shining Colors
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div className='mb-8 md:mb-0'>
-                <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
-                    tab !== 7
-                      ? ' shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-violet-600 border-transparent'
-                  }`}
-                  onClick={(e) => {
-                    e.preventDefault()
-                    setTab(7)
-                  }}
-                >
-                  <div>
-                    <div className='font-bold leading-snug tracking-tight mb-1'>
-                      Viscosity Builders
+                      Lowapel Dyes
                     </div>
                   </div>
                 </a>

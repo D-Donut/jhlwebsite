@@ -254,7 +254,7 @@ export default function LeatherProducts() {
                     </div>
                   </Transition>
 {/* Lowenol Fatliquors */}
-<Transition
+                  <Transition
                     show={tab === 1}
                     appear={true}
                     className='w-full'
@@ -273,9 +273,7 @@ export default function LeatherProducts() {
                         <span className='font-bold text-violet-500'>
                           LOWENOL AMO:
                         </span>{' '}
-                        <span className='font-semibold '>
-                         alkaline based neasfoot
-                        </span>
+
                       </p>
                       <p className='text-gray-400  mb-3'>
                         <span className='font-bold text-violet-500'>
@@ -391,8 +389,224 @@ export default function LeatherProducts() {
                       </p>
                     </div>
                   </Transition>
-{/* Lowapel  */}
-
+{/* Lowapel Dyes */}
+                  <Transition
+                    show={tab === 1}
+                    appear={true}
+                    className='w-full'
+                    enter='transition ease-in-out duration-700 transform order-first'
+                    enterFrom='opacity-0 translate-y-16'
+                    enterTo='opacity-100 translate-y-0'
+                    leave='transition ease-in-out duration-300 transform absolute'
+                    leaveFrom='opacity-100 translate-y-0'
+                    leaveTo='opacity-0 -translate-y-16'
+                    beforeEnter={() => heightFix()}
+                    unmount={false}
+                  >
+                    <div className='relative inline-flex flex-col'>
+                      <h1 className='h1 '></h1>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Black JET 160%
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Black EX-1
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Black JP
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Black Magic
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Black SSB
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Black NT 250 %
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Black HH 150 %
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Brown NGB
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Brown BNR
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Brown MFR
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Brown CB
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Brown CR
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Brown NT
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Brown NR
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Brown B2C
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Brown SSN
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Olive Brown N
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Yellow Brown GS
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Yellow GG
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Brilliant Red 2B
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Red R
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Blue BB
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Blue 2RN
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Dark Green NH
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWAPEL:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          Beige ET
+                        </span>
+                      </p>
+                    </div>
+                  </Transition>
                 </div>
               </div>
             </div>

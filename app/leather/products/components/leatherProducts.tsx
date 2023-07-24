@@ -253,9 +253,145 @@ export default function LeatherProducts() {
                       </p>
                     </div>
                   </Transition>
-{/* Tab 2 here */}
-
-{/* Tab 3 here  */}
+{/* Lowenol Fatliquors */}
+<Transition
+                    show={tab === 1}
+                    appear={true}
+                    className='w-full'
+                    enter='transition ease-in-out duration-700 transform order-first'
+                    enterFrom='opacity-0 translate-y-16'
+                    enterTo='opacity-100 translate-y-0'
+                    leave='transition ease-in-out duration-300 transform absolute'
+                    leaveFrom='opacity-100 translate-y-0'
+                    leaveTo='opacity-0 -translate-y-16'
+                    beforeEnter={() => heightFix()}
+                    unmount={false}
+                  >
+                    <div className='relative inline-flex flex-col'>
+                      <h1 className='h1 '></h1>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL AMO:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                         alkaline based neasfoot
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL BMO:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          bisulfited marine oil - highly concentrated
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL BSN:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          non-yellowing, non-oxydizing oil for whites
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL DMS:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          sulphated/sulphited marine oil
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL EML:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          general use synthetic oil
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL NZB:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          sulphated lanolin
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL WP:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          waterproof fatliquor
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL SO-67:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          synthetic neatsfoot solvent fatliquor
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL CAT:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          cationic topping oil
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL GHB:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          natural and synthetic oil
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL SOFT MSW:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          sulfated oil for very soft leathers
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL TRS:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          synthetic & natural sulphited/sulphated oil
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL BMD:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          cationic wax and paraffins
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL BKD:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          cationic stuffing wax for pull-up
+                        </span>
+                      </p>
+                      <p className='text-gray-400  mb-3'>
+                        <span className='font-bold text-violet-500'>
+                          LOWENOL LFC:
+                        </span>{' '}
+                        <span className='font-semibold '>
+                          high-quality, low-fog fatliquor
+                        </span>
+                      </p>
+                    </div>
+                  </Transition>
+{/* Lowapel  */}
 
                 </div>
               </div>

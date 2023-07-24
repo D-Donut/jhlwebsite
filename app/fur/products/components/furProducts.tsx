@@ -206,7 +206,7 @@ export default function FurProducts() {
                     unmount={false}
                   >
                     <div className='relative inline-flex flex-col'>
-                      <h1 className='h1 '></h1>
+                      <h1 className='h1 '>Tanning Products</h1>
                       <p className='text-gray-400  mb-3'>
                         <span className='font-bold text-blue-500'>
                           LOWENOL C-9685:

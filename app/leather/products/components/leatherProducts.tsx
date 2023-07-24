@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 
-export default function HairProducts() {
+export default function LeatherProducts() {
   const [tab, setTab] = useState<number>(1)
 
   const tabs = useRef<HTMLDivElement>(null)
@@ -44,24 +44,14 @@ export default function HairProducts() {
               className='max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6'
               data-aos='fade-right'
             >
-              {/* <div className='md:pr-4 lg:pr-12 xl:pr-16 mb-8'>
-                <h3 className='h3 mb-3'>Dye Intermediates</h3>
-                <p className=' text-gray-400'>
-                  Our comprehensive range of{' '}
-                  <span className='font-bold'>DYE INTERMEDIATES</span> caters to
-                  the diverse needs of the hair color industry, ensuring that
-                  professional stylists and manufacturers have access to
-                  top-quality products for creating stunning and long-lasting
-                  hair color transformations.
-                </p>
-              </div> */}
+              
               {/* Tabs buttons */}
               <div className='mb-8 text-center md:mb-0'>
                 <a
                   className={`flex  items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 1
-                      ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-rose-500 border-transparent'
+                      ? ' shadow-md border-transparent hover:shadow-lg'
+                      : 'bg-violet-600 border-transparent'
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
@@ -79,8 +69,8 @@ export default function HairProducts() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 2
-                      ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-rose-500 border-transparent'
+                      ? ' shadow-md border-transparent hover:shadow-lg'
+                      : 'bg-violet-600 border-transparent'
                   }`}
                   href='#0'
                   onClick={(e) => {
@@ -99,8 +89,8 @@ export default function HairProducts() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 3
-                      ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-rose-500 border-transparent'
+                      ? ' shadow-md border-transparent hover:shadow-lg'
+                      : 'bg-violet-600 border-transparent'
                   }`}
                   href='#0'
                   onClick={(e) => {
@@ -119,8 +109,8 @@ export default function HairProducts() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 4
-                      ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-rose-500 border-transparent'
+                      ? ' shadow-md border-transparent hover:shadow-lg'
+                      : 'bg-violet-600 border-transparent'
                   }`}
                   href='#0'
                   onClick={(e) => {
@@ -139,8 +129,8 @@ export default function HairProducts() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 5
-                      ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-rose-500 border-transparent'
+                      ? ' shadow-md border-transparent hover:shadow-lg'
+                      : 'bg-violet-600 border-transparent'
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
@@ -158,8 +148,8 @@ export default function HairProducts() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 6
-                      ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-rose-500 border-transparent'
+                      ? ' shadow-md border-transparent hover:shadow-lg'
+                      : 'bg-violet-600 border-transparent'
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
@@ -177,8 +167,8 @@ export default function HairProducts() {
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 7
-                      ? 'bg-blue-500 shadow-md border-transparent hover:shadow-lg'
-                      : 'bg-rose-500 border-transparent'
+                      ? ' shadow-md border-transparent hover:shadow-lg'
+                      : 'bg-violet-600 border-transparent'
                   }`}
                   onClick={(e) => {
                     e.preventDefault()
@@ -202,7 +192,7 @@ export default function HairProducts() {
                   data-aos='zoom-y-out'
                   ref={tabs}
                 >
-                  {/* Lowenol Surfactants */}
+                  {/* Lowatan Retanning Agents, Syntans, & Auxiliaries */}
                   <Transition
                     show={tab === 1}
                     appear={true}
@@ -288,6 +278,10 @@ export default function HairProducts() {
                       </p>
                     </div>
                   </Transition>
+{/* Tab 2 here */}
+
+{/* Tab 3 here  */}
+
                 </div>
               </div>
             </div>

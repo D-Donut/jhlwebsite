@@ -8,7 +8,7 @@ export const metadata = {
 import Link from 'next/link'
 
 import Hero from '@/app/fur/company/hero'
-import Content from '@/app/fur/company/content'
+import Content from '@/app/fur/company/contentA'
 import Particles from '@/app/fur/components/particles'
 import ZigZag from '@/app/hair/components/zigzag'
 

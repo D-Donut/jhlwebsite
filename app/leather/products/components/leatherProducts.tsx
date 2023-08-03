@@ -255,7 +255,7 @@ export default function LeatherProducts() {
                   </Transition>
                   {/* Lowenol Fatliquors */}
                   <Transition
-                    show={tab === 1}
+                    show={tab === 2}
                     appear={true}
                     className='w-full'
                     enter='transition ease-in-out duration-700 transform order-first'
@@ -391,7 +391,7 @@ export default function LeatherProducts() {
                   </Transition>
                   {/* Lowapel Dyes */}
                   <Transition
-                    show={tab === 1}
+                    show={tab === 3}
                     appear={true}
                     className='w-full'
                     enter='transition ease-in-out duration-700 transform order-first'
